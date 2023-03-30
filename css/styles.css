@@ -1,0 +1,174 @@
+ :root {
+   /* Colors */
+    --primary-white-color: #FFFFFF;
+    --logo-color: #2E2F42;
+    --title-color: #2E2F42;
+    --logo-text: #F4F4FD;
+    --nav-link-color: #2E2F42;
+    --address-link-color: #434455;
+    --hero-footer-bgc: #2E2F42;
+
+    /* Font characteristics */
+    --title-font-weight: 500;
+    --title-font-size: 20px;
+    --btn-font-weight: 500;
+   
+    }
+
+ /* Main characteristics for body, titles, text and items */
+ body {
+   background-color: var(--primary-white-color);
+   color: #434455;
+   font-family: 'Roboto', sans-serif;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   letter-spacing: 0.02em;
+  
+ }
+
+.list, .address-item, 
+ .priority-item, .work-item,
+ .team-item, .gallery-item, .link {
+    list-style: none;
+ }
+
+ /* Header section */
+ /* Logo */
+ .logo.link {
+    color: #4D5AE5;
+    font-family: 'Raleway', 'sans-serif';
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    text-decoration: none;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+ }
+ .end-logo {
+    color: var(--logo-color);
+ }
+
+.logo.link{
+   text-decoration: none;
+}
+
+ /* Navigation */
+
+ .nav.link:hover, .nav.link:focus 
+ {
+   color: #404BBF;
+ }
+
+ .nav.link{
+    color: var(--nav-link-color);
+    font-weight: 500;
+    line-height: 1.5;
+    text-decoration: none;
+ }
+
+ /* Contacts */
+ .address.link {
+    color: var(--address-link-color);
+    font-style: normal;
+    line-height: 1.5;
+    text-decoration: none;
+
+ } 
+
+ .address.link:hover, 
+ .address.link:focus {
+   color: #404BBF;
+ }
+
+ /* Hero section */
+ .hero.section, .footer.section {
+    background-color: var(--hero-footer-bgc);
+ }
+
+  /* Hero heading */
+ .hero.heading {
+    color: var(--primary-white-color);
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+ }
+
+.hero-button {
+    background-color: #4D5AE5;
+    color: var(--primary-white-color);
+    font-family: inherit;
+    font-weight: var(--btn-font-weight);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+}
+.hero-button:hover,
+.hero-button:focus {
+    background-color: #404BBF;
+}
+
+/* Priority section */
+/* Header 3 */
+.title {
+    color: var(--title-color);
+    font-weight: var(--title-font-weight);
+    font-size: var(--title-font-size);
+    line-height: 1.2;
+    
+}
+
+/* Text on the page */
+.text {
+    line-height: 1.5;
+}
+
+/* Our work */
+/* h2 */
+.headline {
+   color: var(--title-color);
+   font-weight: 700;
+   font-size: 36px;
+   line-height: 1.11;
+   text-align: center;
+   text-transform: capitalize;
+}
+
+/* Our team */
+.team.section {
+   background-color: #F4F4FD;
+}
+.team-item {
+   background-color: var(--primary-white-color);
+}
+
+/* Footer */
+.logo.footer {
+    color: var(--logo-text);
+}
+.start-logo {
+   color:#4d5ae5;
+}
+.logo-text {
+   color: var(--logo-text) ;
+   line-height: 1.5;
+}
+
+
+/* Portfolio */
+/* Filters */
+.buttons {
+    background-color: #F4F4FD;
+    color: #4D5AE5;
+    font-family: inherit;
+    font-weight: var(--btn-font-weight);
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+   cursor: pointer;
+}
+.buttons:hover, .buttons:focus {
+    background-color: #404BBF;
+    color: var(--primary-white-color);
+}
