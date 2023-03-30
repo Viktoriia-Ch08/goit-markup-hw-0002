@@ -10,11 +10,7 @@
     --hero-footer-bgc: #2E2F42;
     --btn-color: #4d5ae5;
     --hover-focus: #404BBF;
-
-    /* Font characteristics */
-    --title-font-weight: 500;
-    --title-font-size: 20px;   
-    }
+ }
 
  /* Main characteristics for body, titles, text and items */
  body {
@@ -113,8 +109,8 @@
 /* Header 3 */
 .title {
     color: var(--title-color);
-    font-weight: var(--title-font-weight);
-    font-size: var(--title-font-size);
+    font-weight: 500;
+    font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     
