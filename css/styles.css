@@ -1,21 +1,41 @@
  :root {
    /* Colors */
-    --primary-white-color: #FFFFFF;
-    --logo-color: #2E2F42;
-    --logo-accent-color: #4D5AE5;
-    --cloud-color: #F4F4FD;
-    --title-color: #2E2F42;
-    --nav-link-color: #2E2F42;
-    --text-color: #434455;
-    --hero-footer-bgc: #2E2F42;
-    --btn-color: #4d5ae5;
+    --primary-bg-color: #FFFFFF;
+    --primary-color: #434455;
+    
+    --main-title-color: #2E2F42;
+    --main-text-color: #434455;
+
+    --logo-color: #4D5AE5;
+    --logo-accent-color: #2E2F42;
+   
+    --hero-main-title: #FFFFFF;
+    --hero-bg-color: #2E2F42;
+    --hero-btn-bgc: #4d5ae5;
+    --hero-button-color: #FFFFFF;
+    
+    --contacts-text-color: #2E2F42;
+
+    --team-bg-color: #F4F4FD;
+    
+    --nav-menu-color: #2E2F42;
     --hover-focus: #404BBF;
+    
+    --footer-bg-color: #2E2F42;
+    --footer-logo-color: #F4F4FD;
+    --footer-logo-text: #F4F4FD;
+    
+    --portfolio-btn-bgc: #F4F4FD;
+    --portfolio-btn-color: #4d5ae5;
+    --portfolio-btn-hover: #FFFFFF;
+    
+    
  }
 
  /* Main characteristics for body, titles, text and items */
  body {
-   background-color: var(--primary-white-color);
-   color: #434455;
+   background-color: var(--primary-bg-color);
+   color:var(--primary-color);
    font-family: 'Roboto', sans-serif;
    font-style: normal;
    font-weight: 400;
@@ -34,7 +54,7 @@
  /* Header section */
  /* Logo */
  .logo.link {
-    color: var(--logo-accent-color);
+    color: var(--logo-color);
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
@@ -43,7 +63,7 @@
     text-transform: uppercase;
  }
  .header-logo {
-    color: var(--logo-color);
+    color: var(--logo-accent-color);
  }
 
 
@@ -55,7 +75,7 @@
  }
 
  .nav.link{
-    color: var(--nav-link-color);
+    color: var(--nav-menu-color);
     font-weight: 500;
     line-height: 1.5;
  }
@@ -65,7 +85,7 @@
    font-style: normal;
  }
  .contacts.link {
-    color: var(--text-color);
+    color: var(--contacts-text-color);
     line-height: 1.5;
 
  } 
@@ -76,13 +96,13 @@
  }
 
  /* Hero section */
- .hero.section, .footer.section {
-    background-color: var(--hero-footer-bgc);
+ .hero.section {
+   background-color: var(--hero-bg-color);
  }
 
   /* Hero heading */
  .hero.heading {
-    color: var(--primary-white-color);
+    color: var(--hero-main-title);
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
@@ -91,8 +111,8 @@
  }
 
 .hero-button {
-    background-color: var(--btn-color);
-    color: var(--primary-white-color);
+    background-color: var(--hero-btn-bgc);
+    color: var(--hero-button-color);
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -108,7 +128,7 @@
 /* Priority section */
 /* Header 3 */
 .title {
-    color: var(--title-color);
+    color: var(--main-title-color);
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -118,7 +138,7 @@
 
 /* Text on the page */
 .text {
-   color: var(--text-color);
+   color: var(--main-text-color);
    font-size: 16px;
    line-height: 1.5;
    letter-spacing: 0.02em;
@@ -127,7 +147,7 @@
 /* Our work */
 /* h2 */
 .headline {
-   color: var(--title-color);
+   color: var(--main-title-color);
    font-weight: 700;
    font-size: 36px;
    line-height: 1.11;
@@ -138,19 +158,22 @@
 
 /* Our team */
 .team.section {
-   background-color: var(--cloud-color);
+   background-color: var(--team-bg-color);
 }
 .team.item {
-   background-color: var(--primary-white-color);
+   background-color: var(--primary-bg-color);
 }
 
 /* Footer */
+.footer.section {
+   background-color: var(--footer-bg-color);
+}
 .footer-logo {
-    color:var(--cloud-color);
+    color:var(--footer-logo-color);
 }
 
 .logo-text {
-   color: var(--cloud-color);
+   color: var(--footer-logo-text);
    line-height: 1.5;
 }
 
@@ -158,8 +181,8 @@
 /* Portfolio */
 /* Filters */
 .buttons {
-    background-color: var(--cloud-color);
-    color: var(--btn-color);
+    background-color: var(--portfolio-btn-bgc);
+    color: var(--portfolio-btn-color);
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -169,5 +192,5 @@
 }
 .buttons:hover, .buttons:focus {
     background-color: var(--hover-focus);
-    color: var(--primary-white-color);
+    color: var(--portfolio-btn-hover);
 }
